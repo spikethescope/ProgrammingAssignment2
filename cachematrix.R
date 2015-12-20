@@ -26,6 +26,8 @@ invmat <- NULL
 
 
 ## Write a short comment describing this function
+## This function first retrieves the cache matrix to see if inverse has been computed.
+## If available, returns it. Else it invokes 'solve' command to compute the inverse of matrix.
 
 cacheSolve <- function(x, ...) {
   
